@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,500&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Mulish', sans-serif;
+
+}
+
+/*section{
+	background: url(3706176.jpg);
+	background-size: cover;
+	background-position: center;
+}*/
+
+h1{
+	text-align: center;
+	line-height: 20vh;
+	color: #ff8856;
+}
+.Main{
+	width: 100%;
+	height: 80vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.left{
+	background-color: #dfe6e9;
+	border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% 
+
+}
+
+.left img{
+	max-width: 400px;
+	height: auto;
+
+
+}
+
+.right{
+	width: 400px;
+	height: 300px;
+	background-color: #dfe6e9;
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+
+}
+
+.num{
+	width: 250px;
+	height: 40px;
+	padding: 5px;
+	outline: none;
+	border-radius: 1px solid grey;
+	border-radius: 5px;
+}
+
+.Select
+{
+	width: 100%;
+	margin:20px 0;
+
+}
+
+.btn{
+	padding: 10px 16px;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	background-color: #ff8856;
+	color: white;
+	font-size: 1rem;
+}
+
+p{
+	margin-top: 20px;
+}
